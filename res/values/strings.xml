@@ -1,0 +1,9 @@
+<resources>
+
+    <string name="app_name">Stundenplan_Beta</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_start">Start</string>
+    <string name="g3_db_kurs_name">Projekt: Software Engineering</string>
+    
+<string name="g3_kurs_detail_name">Kurs: Detailansicht</string>
+</resources>

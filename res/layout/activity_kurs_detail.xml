@@ -1,0 +1,82 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/g3_txt_Kurs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kurs:" />
+    <!-- android:paddingTop="20dp" -->
+
+    <EditText
+        android:id="@+id/g3_output_txt_Kurs"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/g3_db_kurs_name" />
+
+    <TextView
+        android:id="@+id/g3_txt_Uhrzeit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="20dp"
+        android:text="Uhrzeit:" />
+
+    <EditText
+        android:id="@+id/g3_output_txt_Uhrzeit"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:inputType="time" />
+
+    <TextView
+        android:id="@+id/g3_txt_Dozent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="20dp"
+        android:text="Dozent:" />
+
+    <EditText
+        android:id="@+id/g3_output_txt_Dozent"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/g3_txt_Raum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="20dp"
+        android:text="Raum:" />
+
+    <EditText
+        android:id="@+id/g3_output_txt_Raum"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/g3_txt_Leistung"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="20dp"
+        android:text="Leistung:" />
+
+    <EditText
+        android:id="@+id/g3_output_txt_Leistung"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:inputType="time" />
+
+    <TextView
+        android:id="@+id/g3_txt_todo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="20dp"
+        android:text="To-do&apos;s:" />
+
+    <EditText
+        android:id="@+id/g3_output_txt_todo"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
