@@ -13,12 +13,14 @@ public final class R {
     public static final class drawable {
         public static final int ic_action_search=0x7f020000;
         public static final int ic_launcher=0x7f020001;
-        public static final int smallarrow=0x7f020002;
+        public static final int navigation_expand=0x7f020002;
+        public static final int smallarrow=0x7f020003;
     }
     public static final class id {
-        public static final int button_send=0x7f07000e;
-        public static final int g3_btn_detail_kurs=0x7f07000c;
-        public static final int g3_btn_stundenplan=0x7f07000d;
+        public static final int button1=0x7f07000c;
+        public static final int button2=0x7f07000d;
+        public static final int button3=0x7f07000e;
+        public static final int button4=0x7f07000f;
         public static final int g3_output_txt_Dozent=0x7f070005;
         public static final int g3_output_txt_Kurs=0x7f070001;
         public static final int g3_output_txt_Leistung=0x7f070009;
@@ -31,12 +33,14 @@ public final class R {
         public static final int g3_txt_Raum=0x7f070006;
         public static final int g3_txt_Uhrzeit=0x7f070002;
         public static final int g3_txt_todo=0x7f07000a;
-        public static final int menu_settings=0x7f07000f;
+        public static final int menu_settings=0x7f070010;
+        public static final int viewpager=0x01010000;
     }
     public static final class layout {
         public static final int activity_kurs_detail=0x7f030000;
         public static final int activity_start=0x7f030001;
-        public static final int layout_stundenplan_woche=0x7f030002;
+        public static final int imageview_stundenplan=0x7f030002;
+        public static final int viewpager_layout=0x7f030003;
     }
     public static final class menu {
         public static final int activity_start=0x7f060000;

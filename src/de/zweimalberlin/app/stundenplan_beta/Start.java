@@ -27,16 +27,14 @@ public class Start extends Activity {
 		return true;
 	}
 
-	public void onClick_btn_kurs_detail(View v) {
-		Log.i("Content ", " btn_kurs_detail ");
-		setContentView(R.layout.activity_kurs_detail);
-		EditText tv = (EditText) findViewById(R.id.g3_output_txt_Kurs);
-		tv.setText(kurs_name);
+	public void onClick_btn_imageview(View v) {
+		Log.i("Content ", " imageview_view ");
+		setContentView(R.layout.imageview_stundenplan);
 	}
 
-	public void onClick_btn_stundenplan(View v) {
-		Log.i("Content ", " btn_kurs_detail ");
-		setContentView(R.layout.layout_stundenplan_woche);
+	public void onClickExpand(View v) {
+		Log.i("Content ", " imageview_control ");
+		setContentView(R.layout.activity_start);
 	}
 
 }

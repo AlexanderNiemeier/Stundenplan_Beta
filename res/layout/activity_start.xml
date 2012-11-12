@@ -3,122 +3,30 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical" >
-<!--
-    <LinearLayout
-        xmlns:android="http://schemas.android.com/apk/res/android"
-        xmlns:tools="http://schemas.android.com/tools"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal" >
 
-        <Button
-            android:id="@+id/button1"
-            android:layout_width="wrap_content"
-            android:layout_height="40dp"
-            android:layout_gravity="top"
-            android:layout_marginBottom="-4dip"
-            android:layout_marginLeft="-4dip"
-            android:layout_marginRight="-4dip"
-            android:layout_marginTop="-4dip"
-            android:layout_weight="0.2"
-            android:text="Mo"
-            android:textSize="10dp" />
-
-        <Button
-            android:id="@+id/button2"
-            android:layout_width="wrap_content"
-            android:layout_height="40dp"
-            android:layout_gravity="top"
-            android:layout_marginBottom="-4dip"
-            android:layout_marginLeft="-4dip"
-            android:layout_marginRight="-4dip"
-            android:layout_marginTop="-4dip"
-            android:layout_weight="0.2"
-            android:text="Di"
-            android:textSize="10dp" />
-
-        <Button
-            android:id="@+id/button3"
-            android:layout_width="wrap_content"
-            android:layout_height="40dp"
-            android:layout_gravity="top"
-            android:layout_marginBottom="-4dip"
-            android:layout_marginLeft="-4dip"
-            android:layout_marginRight="-4dip"
-            android:layout_marginTop="-4dip"
-            android:layout_weight="0.2"
-            android:text="Mi"
-            android:textSize="10dp" />
-
-        <Button
-            android:id="@+id/button4"
-            android:layout_width="wrap_content"
-            android:layout_height="40dp"
-            android:layout_gravity="top"
-            android:layout_marginBottom="-4dip"
-            android:layout_marginLeft="-4dip"
-            android:layout_marginRight="-4dip"
-            android:layout_marginTop="-4dip"
-            android:layout_weight="0.2"
-            android:text="Do"
-            android:textSize="10dp" />
-
-        <Button
-            android:id="@+id/button5"
-            android:layout_width="wrap_content"
-            android:layout_height="40dp"
-            android:layout_gravity="top"
-            android:layout_marginBottom="-4dip"
-            android:layout_marginLeft="-4dip"
-            android:layout_marginRight="-4dip"
-            android:layout_marginTop="-4dip"
-            android:layout_weight="0.2"
-            android:text="Fr"
-            android:textSize="10dp" />
-    </LinearLayout>
-
-    <LinearLayout
-        xmlns:android="http://schemas.android.com/apk/res/android"
-        xmlns:tools="http://schemas.android.com/tools"
+    <Button
+        android:id="@+id/button1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:orientation="horizontal" >
+        android:onClick="onClick_btn_imageview"
+        android:text="imageview" />
 
-        <Button
-            android:id="@+id/g3_btn_detail_kurs"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="-4dip"
-            android:layout_marginLeft="-4dip"
-            android:layout_marginRight="-4dip"
-            android:layout_marginTop="-4dip"
-            android:layout_weight="0.2"
-            android:onClick="onClick_btn_kurs_detail"
-            android:text="1" >
-        </Button>
-    </LinearLayout>
-      -->
-    <LinearLayout
-        android:layout_width="match_parent"
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"
-        android:gravity="center_horizontal" >
+        android:text="Button" />
 
-        <Button
-            android:id="@+id/g3_btn_detail_kurs"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:onClick="onClick_btn_kurs_detail"
-            android:text="Kurs-Detail-Ansicht" >
-        </Button>
-         <Button
-            android:id="@+id/g3_btn_stundenplan"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:onClick="onClick_btn_stundenplan"
-            android:text="Stundenplan-Wochen-Ansicht" >
-        </Button>
-    </LinearLayout>
-  
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Button" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Button" />
 
 </LinearLayout>
